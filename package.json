@@ -1,0 +1,25 @@
+{
+  "name": "micahgrey",
+  "version": "1.0.0",
+  "description": "Site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1gitGrey/micahgrey.git"
+  },
+  "keywords": [
+    "npm",
+    "git",
+    "gulp",
+    "workflow"
+  ],
+  "author": "grey grissom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1gitGrey/micahgrey/issues"
+  },
+  "homepage": "https://github.com/1gitGrey/micahgrey#readme"
+}
