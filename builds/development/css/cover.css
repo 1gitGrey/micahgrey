@@ -150,12 +150,89 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 
-  body { 
+  /* body { 
   background: url(../images/master.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+
+
+body {
+    background: url(../images/master.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+
+}
+ 
+.intro-unit {
+    border-radius: 6px 6px 6px 6px;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 60px;
+    text-align: center;
+}
+ 
+#features {
+    background-color: #888888;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+ 
+#empty-ny {
+    background: url(../images/ny.jpg) 50% 0 fixed;
+     height: 300px;
+}
+ 
+#about {
+    background-color: #000000;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    color: #fff;
+}
+ 
+#footer {
+ 
+}
+ 
+.footer-background {
+    background-color: #000000;
+    min-height: 60px;
+    width: 100%;
+        color: #fff;
+}
+ 
+.footer-menu {
+    margin-left: 0;
+ 
+    padding: 0 0 5px;
+}
+.footer-menu li {
+    display: inline;
+    list-style-type: none;
+}
+.footer-menu li a {
+    border-left: 1px solid #404040;
+    padding: 0 8px;
+}
+.footer-menu > li:first-child > a {
+    border-left: medium none;
+    padding: 0 8px 0 0;
 }
 }
 
